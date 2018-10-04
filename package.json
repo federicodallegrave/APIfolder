@@ -1,0 +1,26 @@
+{
+  "name": "apifolder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+    "start": "node api.js",
+    "SUN": "node client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/federicodallegrave/APIfolder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/federicodallegrave/APIfolder/issues"
+  },
+  "homepage": "https://github.com/federicodallegrave/APIfolder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
